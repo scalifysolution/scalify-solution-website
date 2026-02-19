@@ -1,0 +1,29 @@
+{
+  "rewrites": [
+    {
+      "source": "/_sgd/:path*",
+      "destination": "https://REPLACE_WITH_SCALE_GROW_DOMAIN/_sgd/:path*"
+    },
+    {
+      "source": "/app-development/:path*",
+      "destination": "https://REPLACE_WITH_SCALE_GROW_DOMAIN/app-development/:path*"
+    },
+    {
+      "source": "/crm-development/:path*",
+      "destination": "https://REPLACE_WITH_SCALE_GROW_DOMAIN/crm-development/:path*"
+    },
+    {
+      "source": "/ai-platform/:path*",
+      "destination": "https://REPLACE_WITH_SCALE_GROW_DOMAIN/ai-platform/:path*"
+    },
+    {
+      "source": "/website-development/:path*",
+      "destination": "https://REPLACE_WITH_SCALE_GROW_DOMAIN/website-development/:path*"
+    },
+    {
+      "source": "/social-media-marketing/:path*",
+      "destination": "https://REPLACE_WITH_SCALE_GROW_DOMAIN/social-media-marketing/:path*"
+    }
+  ]
+}
+

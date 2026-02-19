@@ -1,0 +1,100 @@
+[
+  {
+    "id": "1",
+    "label": "Home",
+    "link": "/",
+    "icon": false
+  },
+  {
+    "id": "2",
+    "label": "About Us",
+    "link": "/about",
+    "icon": false
+  },
+  {
+    "id": "3",
+    "label": "Services",
+    "link": "",
+    "icon": true,
+    "subMenu": [
+      {
+        "id": "1",
+        "label": "Website Development",
+        "link": "/service/website-development"
+      },
+      {
+        "id": "2",
+        "label": "App Development",
+        "link": "/service/app-development"
+      },
+      {
+        "id": "3",
+        "label": "E-commerce Development",
+        "link": "/service/ecommerce-development"
+      },
+      {
+        "id": "4",
+        "label": "UI / UX",
+        "link": "/service/ui-ux"
+      },
+      {
+        "id": "5",
+        "label": "Graphic Designing",
+        "link": "/service/graphic-designing"
+      },
+      {
+        "id": "6",
+        "label": "Digital Marketing",
+        "link": "/service/digital-marketing"
+      },
+      {
+        "id": "7",
+        "label": "SEO",
+        "link": "/service/seo"
+      },
+      {
+        "id": "8",
+        "label": "SaaS Solutions",
+        "link": "/service/saas-solutions"
+      },
+      {
+        "id": "9",
+        "label": "Custom Solutions",
+        "link": "/service/custom-solutions"
+      },
+      {
+        "id": "10",
+        "label": "IT Consulting",
+        "link": "/service/it-consulting"
+      },
+      {
+        "id": "11",
+        "label": "Web Hosting & Domain Services",
+        "link": "/service/web-hosting-and-domain-services"
+      },
+      {
+        "id": "12",
+        "label": "ERP & CRM Development",
+        "link": "/service/erp-and-crm-development"
+      },
+      {
+        "id": "13",
+        "label": "Cloud Computing Services",
+        "link": "/service/cloud-computing-services"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "label": "Contact",
+    "link": "/contact",
+    "icon": false
+  },
+  {
+    "id": "5",
+    "label": "Pay Now",
+    "link": "https://razorpay.me/@scalifysolutions",
+    "icon": false,
+    "external": true
+  }
+]

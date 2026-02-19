@@ -1,0 +1,215 @@
+import Link from "next/link";
+import { SERVICES } from "@/data/common";
+import React from "react";
+
+const Footer = () => {
+  return (
+    <>
+      <footer className="footer-section">
+        <div className="container">
+          <div className="footer-top">
+            <div className="row align-items-center justify-content-center">
+              <div className="col-lg-4 col-md-6">
+                <div className="footer-widget">
+                  <div className="widget-title">
+                    <h4>Our Services</h4>
+                  </div>
+                  <div className="menu-container">
+                    <ul className="widget-list">
+                      {SERVICES.slice(0, 8).map((service) => {
+                        return (
+                          <li key={service.link || service.label}>
+                            <a href={service.link}>{service.label}</a>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                    <ul className="widget-list">
+                      {SERVICES.slice(8, 13).map((service) => {
+                        return (
+                          <li key={service.link || service.label}>
+                            <a href={service.link}>{service.label}</a>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-4 col-md-6 d-flex justify-content-lg-center justify-content-md-end justify-content-sm-start">
+                <div className="footer-logo-area">
+                  <div className="logo-bg">
+                    <img
+                      src="/assets/img/home1/footer-logo-bg.png"
+                      alt=""
+                      className="light"
+                    />
+                    <img
+                      src="/assets/img/home1/footer-logo-bg-dark.png"
+                      alt=""
+                      className="dark"
+                    />
+                  </div>
+                  <div className="logo">
+                    <img
+                      src="/assets/logo/logo_social.png"
+                      alt=""
+                      className="light"
+                    />
+                    <img
+                      src="/assets/img/footer-logo-dark.svg"
+                      alt=""
+                      className="dark"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-8
+                  d-flex justify-content-lg-end justify-content-sm-end"
+              >
+                <div className="footer-widget">
+                  <div className="widget-title two">
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={14}
+                        height={14}
+                        viewBox="0 0 14 14"
+                      >
+                        <g>
+                          <path d="M6.6304 0.338424C6.67018 -0.112811 7.32982 -0.112807 7.3696 0.338428L7.72654 4.38625C7.75291 4.68505 8.10454 4.83069 8.33443 4.63804L11.4491 2.02821C11.7963 1.73728 12.2627 2.20368 11.9718 2.55089L9.36197 5.66556C9.1693 5.89546 9.31496 6.24709 9.61374 6.27346L13.6615 6.6304C14.1128 6.67018 14.1128 7.32982 13.6615 7.3696L9.61374 7.72654C9.31496 7.75291 9.1693 8.10454 9.36197 8.33443L11.9718 11.4491C12.2627 11.7963 11.7963 12.2627 11.4491 11.9718L8.33443 9.36197C8.10454 9.1693 7.75291 9.31496 7.72654 9.61374L7.3696 13.6615C7.32982 14.1128 6.67018 14.1128 6.6304 13.6615L6.27346 9.61374C6.24709 9.31496 5.89546 9.1693 5.66556 9.36197L2.55089 11.9718C2.20368 12.2627 1.73729 11.7963 2.02822 11.4491L4.63804 8.33443C4.83069 8.10454 4.68504 7.75291 4.38625 7.72654L0.338424 7.3696C-0.112811 7.32982 -0.112807 6.67018 0.338428 6.6304L4.38625 6.27346C4.68505 6.24709 4.83069 5.89546 4.63804 5.66556L2.02821 2.55089C1.73728 2.20368 2.20368 1.73729 2.55089 2.02822L5.66556 4.63804C5.89546 4.83069 6.24709 4.68504 6.27346 4.38625L6.6304 0.338424Z" />
+                        </g>
+                      </svg>
+                      They told about
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={14}
+                        height={14}
+                        viewBox="0 0 14 14"
+                      >
+                        <g>
+                          <path d="M6.6304 0.338424C6.67018 -0.112811 7.32982 -0.112807 7.3696 0.338428L7.72654 4.38625C7.75291 4.68505 8.10454 4.83069 8.33443 4.63804L11.4491 2.02821C11.7963 1.73728 12.2627 2.20368 11.9718 2.55089L9.36197 5.66556C9.1693 5.89546 9.31496 6.24709 9.61374 6.27346L13.6615 6.6304C14.1128 6.67018 14.1128 7.32982 13.6615 7.3696L9.61374 7.72654C9.31496 7.75291 9.1693 8.10454 9.36197 8.33443L11.9718 11.4491C12.2627 11.7963 11.7963 12.2627 11.4491 11.9718L8.33443 9.36197C8.10454 9.1693 7.75291 9.31496 7.72654 9.61374L7.3696 13.6615C7.32982 14.1128 6.67018 14.1128 6.6304 13.6615L6.27346 9.61374C6.24709 9.31496 5.89546 9.1693 5.66556 9.36197L2.55089 11.9718C2.20368 12.2627 1.73729 11.7963 2.02822 11.4491L4.63804 8.33443C4.83069 8.10454 4.68504 7.75291 4.38625 7.72654L0.338424 7.3696C-0.112811 7.32982 -0.112807 6.67018 0.338428 6.6304L4.38625 6.27346C4.68505 6.24709 4.83069 5.89546 4.63804 5.66556L2.02821 2.55089C1.73728 2.20368 2.20368 1.73729 2.55089 2.02822L5.66556 4.63804C5.89546 4.83069 6.24709 4.68504 6.27346 4.38625L6.6304 0.338424Z" />
+                        </g>
+                      </svg>
+                    </span>
+                    <h3>What Sets Us Apart?</h3>
+                  </div>
+                  <div className="content">
+                    <p>
+                      Welcome to Scalify, where innovation meets our passion in a
+                      journey that started with a simple idea and a shared
+                      dream.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="contact-area">
+            <div className="hotline-area">
+              <div className="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={33}
+                  height={33}
+                  viewBox="0 0 33 33"
+                >
+                  <g>
+                    <path d="M26.0803 20.4417C25.4047 19.7383 24.5898 19.3622 23.7262 19.3622C22.8695 19.3622 22.0477 19.7313 21.3442 20.4348L19.1433 22.6287C18.9622 22.5312 18.7811 22.4407 18.607 22.3501C18.3563 22.2248 18.1195 22.1063 17.9175 21.981C15.8559 20.6716 13.9823 18.9652 12.1854 16.7573C11.3148 15.6569 10.7297 14.7305 10.3049 13.7903C10.876 13.2679 11.4053 12.7247 11.9207 12.2023C12.1157 12.0073 12.3108 11.8053 12.5058 11.6103C13.9684 10.1477 13.9684 8.25321 12.5058 6.79058L10.6044 4.88917C10.3885 4.67326 10.1656 4.45038 9.95664 4.22751C9.53874 3.79569 9.09996 3.34993 8.64724 2.93204C7.97165 2.26341 7.16372 1.9082 6.31401 1.9082C5.46429 1.9082 4.64244 2.26341 3.94595 2.93204C3.93899 2.939 3.93899 2.939 3.93202 2.94597L1.56396 5.33492C0.672459 6.22643 0.164023 7.31295 0.0525852 8.57359C-0.114572 10.6073 0.484407 12.5018 0.944089 13.7415C2.0724 16.7852 3.7579 19.606 6.27222 22.6287C9.32283 26.2713 12.9933 29.1478 17.1862 31.1746C18.7881 31.9338 20.9263 32.8323 23.3153 32.9855C23.4615 32.9924 23.6148 32.9994 23.7541 32.9994C25.3629 32.9994 26.7141 32.4213 27.7728 31.2721C27.7798 31.2582 27.7937 31.2512 27.8006 31.2373C28.1628 30.7985 28.5807 30.4015 29.0195 29.9767C29.319 29.6911 29.6254 29.3916 29.9249 29.0782C30.6145 28.3608 30.9766 27.525 30.9766 26.6683C30.9766 25.8047 30.6075 24.9759 29.904 24.2794L26.0803 20.4417Z" />
+                  </g>
+                </svg>
+              </div>
+              <div className="content">
+                <span>Call Any Time</span>
+                <h6>
+                  <a href="tel:+91-8222822708">+91-8222822708</a>
+                </h6>
+              </div>
+            </div>
+
+            <div className="hotline-area">
+              <div className="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={33}
+                  height={33}
+                  viewBox="0 0 33 33"
+                >
+                  <g>
+                    <path d="M16.4999 0C9.77802 0 4.30957 5.46845 4.30957 12.1904C4.30957 14.4033 5.30201 16.7832 5.3436 16.8836C5.66413 17.6445 6.2966 18.8262 6.75266 19.5189L15.1109 32.1832C15.453 32.7024 15.9592 33 16.4999 33C17.0406 33 17.5469 32.7024 17.8889 32.184L26.2479 19.5189C26.7047 18.8262 27.3364 17.6445 27.657 16.8836C27.6986 16.784 28.6903 14.404 28.6903 12.1904C28.6903 5.46845 23.2218 0 16.4999 0Z" />
+                    <path d="M16.5001 5.7373C12.9412 5.7373 10.0464 8.63287 10.0464 12.191C10.0464 15.7492 12.9412 18.6447 16.5001 18.6447C20.059 18.6447 22.9538 15.7492 22.9538 12.191C22.9538 8.63287 20.059 5.7373 16.5001 5.7373Z" />
+                  </g>
+                </svg>
+              </div>
+              <div className="content">
+                <span>Address</span>
+                <h6>
+                  <a href="https://www.google.com/maps/search/?api=1&query=Office%20No.%205%20Supermax%20Galleria%2C%20Sec.%2033%2C%20Rathdhana%2C%20Sonipat%2C%20Haryana">
+                    Office No. 5 Supermax Galleria, Sec. 33, Rathdhana, Sonipat,
+                    Haryana
+                  </a>
+                </h6>
+              </div>
+            </div>
+
+            <div className="hotline-area">
+              <div className="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={33}
+                  height={33}
+                  viewBox="0 0 33 33"
+                >
+                  <g>
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M32.9891 1.18398C33.0171 0.995671 32.9925 0.803292 32.918 0.628097C32.8435 0.452902 32.722 0.301711 32.567 0.191227C32.4121 0.0808885 32.2296 0.0155543 32.0399 0.00245033C31.8501 -0.0106536 31.6604 0.0289832 31.4918 0.116977L0.554265 16.2732C0.376261 16.3673 0.229594 16.5113 0.132265 16.6876C0.0349358 16.8638 -0.00882138 17.0646 0.00636356 17.2654C0.0215485 17.4662 0.0950149 17.6581 0.217747 17.8177C0.340478 17.9773 0.507135 18.0976 0.697265 18.1639L9.29789 21.1036L27.6143 5.44235L13.4408 22.5185L27.8549 27.4451C27.9979 27.4932 28.1497 27.5094 28.2997 27.4926C28.4496 27.4758 28.5941 27.4265 28.723 27.348C28.8519 27.2696 28.962 27.1639 29.0458 27.0384C29.1296 26.9129 29.1849 26.7706 29.2079 26.6215L32.9891 1.18398Z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div className="content">
+                <span>Say Hello</span>
+                <h6>
+                  <a href="mailto:sales@scalifysolutions.com">
+                    sales@scalifysolutions.com
+                  </a>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <div className="footer-bottom">
+            <div className="copyright-area">
+              <p>
+                © 2026 <a href="#">Scalify Solutions</a>. All rights reserved.
+              </p>
+            </div>
+
+            {/* UPDATED: redirect to actual pages */}
+            <div className="footer-bottom-right">
+              <ul>
+                <li>
+                  <Link href="/support-policy">Support Policy</Link>
+                </li>
+                <li>
+                  <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
+                </li>
+                <li>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
+};
+
+export default Footer;

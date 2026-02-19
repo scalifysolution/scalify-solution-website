@@ -1,0 +1,282 @@
+[
+    {
+        "id": "1",
+        "slug": "/service",
+        "name": "SOLUTIONS",
+        "pageTitle": "Services & Solutions.",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "2",
+        "slug": "/service/website-development",
+        "name": "Website Development",
+        "pageTitle": "Website Development",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "3",
+        "slug": "/service/app-development",
+        "name": "App Development",
+        "pageTitle": "App Development",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "4",
+        "slug": "/service/ecommerce-development",
+        "name": "E-commerce Development",
+        "pageTitle": "E-commerce Development",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "5",
+        "slug": "/service/ui-ux",
+        "name": "UI / UX",
+        "pageTitle": "UI / UX",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "6",
+        "slug": "/service/graphic-designing",
+        "name": "Graphic Designing",
+        "pageTitle": "Graphic Designing",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "7",
+        "slug": "/service/digital-marketing",
+        "name": "Digital Marketing",
+        "pageTitle": "Digital Marketing",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "8",
+        "slug": "/service/seo",
+        "name": "SEO",
+        "pageTitle": "SEO",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "9",
+        "slug": "/service/saas-solutions",
+        "name": "SaaS Solutions",
+        "pageTitle": "SaaS Solutions",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "10",
+        "slug": "/service/custom-solutions",
+        "name": "Custom Solutions",
+        "pageTitle": "Custom Solutions",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "11",
+        "slug": "/service/it-consulting",
+        "name": "IT Consulting",
+        "pageTitle": "IT Consulting",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "12",
+        "slug": "/service/web-hosting-and-domain-services",
+        "name": "Web Hosting & Domain Services",
+        "pageTitle": "Web Hosting & Domain Services",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "13",
+        "slug": "/service/erp-and-crm-development",
+        "name": "ERP & CRM Development",
+        "pageTitle": "ERP & CRM Development",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "14",
+        "slug": "/service/cloud-computing-services",
+        "name": "Cloud Computing Services",
+        "pageTitle": "Cloud Computing Services",
+        "section_down_scroll": "#service-section"
+    },
+    {
+        "id": "15",
+        "name": "CASE STUDY",
+        "slug": "/case-study",
+        "pageTitle": "Success In The Field.",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "16",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study2",
+        "pageTitle": "Success In The Field.",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "17",
+        "name": "CASE STUDY",
+        "slug": "/case-study/case-study-details",
+        "pageTitle": "Navigating Growth A Startup Agency Success Story. on Creative & unique ideas.",
+        "section_down_scroll": "#case-study-card-section"
+    },
+    {
+        "id": "18",
+        "name": "BLOG",
+        "slug": "/blog",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
+    {
+        "id": "19",
+        "name": "BLOG",
+        "slug": "/blog/blog-grid-sidebar",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
+    {
+        "id": "20",
+        "name": "BLOG",
+        "slug": "/blog/blog-list",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
+    {
+        "id": "21",
+        "name": "BLOG",
+        "slug": "/blog/blog-standard",
+        "pageTitle": "Latest News Blog & Article.",
+        "section_down_scroll": "#blog-grid"
+    },
+    {
+        "id": "22",
+        "name": "BLOG DETAILS",
+        "slug": "/blog/blog-details",
+        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
+        "section_down_scroll": "#blog-details"
+    },
+    {
+        "id": "23",
+        "name": "BLOG DETAILS",
+        "slug": "/blog/blog-details2",
+        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
+        "section_down_scroll": "#blog-details"
+    },
+    {
+        "id": "24",
+        "name": "ABOUT US",
+        "slug": "/about",
+        "pageTitle": "We are a IT service Company working with talents on delivering unique ideas.",
+        "section_down_scroll": "#about-section"
+    },
+    {
+        "id": "25",
+        "name": "industry",
+        "slug": "/industry",
+        "pageTitle": "Challenge In Every Industry.",
+        "section_down_scroll": "#industry-card-section"
+    },
+    {
+        "id": "26",
+        "name": "portfolio",
+        "slug": "/portfolio",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "27",
+        "name": "portfolio",
+        "slug": "/portfolio/portfolio-masonary",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "28",
+        "name": "portfolio",
+        "slug": "/portfolio/portfolio-info-flow",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "29",
+        "name": "portfolio",
+        "slug": "/portfolio/portfolio-list",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "30",
+        "name": "portfolio",
+        "slug": "/portfolio/portfolio-details",
+        "pageTitle": "Showcase Our Portfolio.",
+        "section_down_scroll": "#portfolio-grid"
+    },
+    {
+        "id": "31",
+        "name": "OUR TEAM",
+        "slug": "/team",
+        "pageTitle": "Our Creative Team.",
+        "section_down_scroll": "#team-section"
+    },
+    {
+        "id": "32",
+        "name": "OUR TEAM",
+        "slug": "/team2",
+        "pageTitle": "Our Creative Team.",
+        "section_down_scroll": "#team-section"
+    },
+    {
+        "id": "33",
+        "name": "FEATURES",
+        "slug": "/features",
+        "pageTitle": "Deep Dive Connective Power.",
+        "section_down_scroll": "#project-section"
+    },
+    {
+        "id": "34",
+        "name": "pricing-plan",
+        "slug": "/pricing-plan",
+        "pageTitle": "Our Flexible Pricing Plan.",
+        "section_down_scroll": "#pricing-plan-section"
+    },
+    {
+        "id": "35",
+        "name": "faq",
+        "slug": "/faq",
+        "pageTitle": "Frequently Asked Questions.",
+        "section_down_scroll": "#faq-section"
+    },
+    {
+        "id": "36",
+        "name": "shop",
+        "slug": "/shop",
+        "pageTitle": "Explore Our Shop.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "37",
+        "name": "product-details",
+        "slug": "/product-details",
+        "pageTitle": "Decoding The Cloud And Deep Dive Told That Creative Designs For Work.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "38",
+        "name": "cart",
+        "slug": "/cart",
+        "pageTitle": "Instant Purchase.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "39",
+        "name": "checkout",
+        "slug": "/checkout",
+        "pageTitle": "Secure Checkout.",
+        "section_down_scroll": "#shop"
+    },
+    {
+        "id": "40",
+        "name": "CONTACT US",
+        "slug": "/contact",
+        "pageTitle": "Ready to Connect with Scalify Solutions ?",
+        "section_down_scroll": "#shop"
+    }
+]
