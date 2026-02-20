@@ -199,6 +199,10 @@ const Footer3 = () => {
                               width: "100%",
                               maxWidth: "100%",
                               overflow: "hidden",
+                              borderRadius: 10,
+                              padding: 12,
+                              background: "#ffffff",
+                              border: "1px solid rgba(0,0,0,0.10)",
                               display: "flex",
                               justifyContent: "flex-start",
                             }}

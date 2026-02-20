@@ -297,6 +297,10 @@ const Home1Contact = () => {
                               width: "100%",
                               maxWidth: "100%",
                               overflow: "hidden",
+                              borderRadius: 10,
+                              padding: 12,
+                              background: "#ffffff",
+                              border: "1px solid rgba(0,0,0,0.10)",
                               display: "flex",
                               justifyContent: "flex-start",
                             }}
@@ -328,7 +332,7 @@ const Home1Contact = () => {
                       </div>
 
                       <div className="col-lg-12 mb-20">
-                        <div className="form-inner">
+                        <div className="form-inner" style={{ marginTop: 10 }}>
                           <button
                             className="primary-btn2"
                             type="submit"
