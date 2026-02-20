@@ -132,6 +132,38 @@ const Footer3 = () => {
                   <div className="subscribe-area mb-50">
                     <h4>Get a Call ?</h4>
 
+                    <div className="social-area" style={{ marginBottom: 15 }}>
+                      <h6>Get a call now</h6>
+                      <ul className="social-list">
+                        <li>
+                          <a
+                            href="https://wa.me/918222822708"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="Chat on WhatsApp"
+                          >
+                            <i className="bi bi-whatsapp" style={{ fontSize: 20 }} />
+                            <span>WhatsApp</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="tel:+918222822708" aria-label="Call now">
+                            <i className="bi bi-telephone" style={{ fontSize: 20 }} />
+                            <span>Call</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="mailto:sales@scalifysolutions.com"
+                            aria-label="Send email"
+                          >
+                            <i className="bi bi-envelope" style={{ fontSize: 20 }} />
+                            <span>Email</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
                     <form
                       className="subscribe-form-wrap"
                       onSubmit={handleGetCallSubmit}
