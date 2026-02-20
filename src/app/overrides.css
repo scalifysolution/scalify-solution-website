@@ -1,0 +1,30 @@
+.sw-recaptcha-outer {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.sw-recaptcha-inner {
+  display: inline-block;
+  transform-origin: 0 0;
+}
+
+/* reCAPTCHA has a fixed ~304px width; scale down on small screens */
+@media (max-width: 420px) {
+  .sw-recaptcha-inner {
+    transform: scale(0.95);
+  }
+}
+
+@media (max-width: 380px) {
+  .sw-recaptcha-inner {
+    transform: scale(0.92);
+  }
+}
+
+@media (max-width: 340px) {
+  .sw-recaptcha-inner {
+    transform: scale(0.86);
+  }
+}
+

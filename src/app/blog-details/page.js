@@ -661,18 +661,18 @@ const BlogDetails = () => {
                       <div className="col-md-12 mb-30">
                         {process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ? (
                           <div
+                            className="sw-recaptcha-outer"
                             style={{
-                              width: "100%",
-                              maxWidth: "100%",
-                              overflow: "hidden",
                               display: "flex",
                               justifyContent: "flex-start",
                             }}
                           >
-                            <ReCAPTCHA
-                              sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-                              onChange={(token) => setCaptchaToken(token)}
-                            />
+                            <div className="sw-recaptcha-inner">
+                              <ReCAPTCHA
+                                sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+                                onChange={(token) => setCaptchaToken(token)}
+                              />
+                            </div>
                           </div>
                         ) : (
                           <p style={{ textAlign: "center", fontSize: 12, opacity: 0.8 }}>
