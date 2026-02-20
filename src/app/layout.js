@@ -16,6 +16,7 @@ import "../../public/assets/css/style.css";
 import ScrollProgress from "@/components/common/ScrollProgress";
 import ThemeSwitch from "@/components/common/Theme";
 import useWow from "@/hooks/useWow";
+import RouteLoadingBar from "@/components/common/RouteLoadingBar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
         <title>Scalify Soutions - Software, SaaS &amp; Digital Agency</title>
       </head>
       <body>
+        <RouteLoadingBar />
         <ScrollProgress />
         {/* <ThemeSwitch /> */}
         {children}

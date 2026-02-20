@@ -1,12 +1,12 @@
 {
   "/_not-found": "app/_not-found.js",
-  "/contact/page": "app/contact/page.js",
   "/about/page": "app/about/page.js",
-  "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/privacy-policy/page": "app/privacy-policy/page.js",
-  "/support-policy/page": "app/support-policy/page.js",
   "/blog-details/page": "app/blog-details/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/support-policy/page": "app/support-policy/page.js",
   "/terms-and-conditions/page": "app/terms-and-conditions/page.js",
   "/service/[slug]/page": "app/service/[slug]/page.js"
 }
